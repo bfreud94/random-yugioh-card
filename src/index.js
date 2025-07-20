@@ -11,7 +11,7 @@ app.get('/', async (_, res) => {
     res.set('Content-Type', 'text/html')
     res.send(Buffer.from(`
         <a href='/'>
-            <img src=${image_url} />
+            <img height="558" width="404" src=${image_url} />
         </a>
     `))
 })
